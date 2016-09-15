@@ -1,0 +1,26 @@
+{
+  "name": "html-to",
+  "version": "0.0.1",
+  "description": "Converts html urls to other things",
+  "main": "server.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/rahulmamgain/html-to.git"
+  },
+  "keywords": [
+    "html",
+    "pdf",
+    "png"
+  ],
+  "author": "rahul.mamgain@gmail.com",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.13.4",
+    "wkhtmltopdf": "~0.1.5",
+    "string": "~3.3.1",
+    "body-parser": "~1.15.0"
+  }
+}
